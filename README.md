@@ -21,3 +21,15 @@ A new Flutter project.
     <string>App needs to authenticate using faces.</string>
 ```
 # for Android:
+
+- change MainActivity
+
+```dart
+package com.example.biometrics_authentication
+
+import io.flutter.embedding.android.FlutterFragmentActivity
+
+class MainActivity: FlutterFragmentActivity() {
+}
+
+```
