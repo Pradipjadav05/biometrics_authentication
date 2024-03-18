@@ -24,7 +24,7 @@ class AuthService{
             options: const AuthenticationOptions(
               stickyAuth: true,
               // it will allow only biometrics if true biometrics
-              biometricOnly: true,
+              biometricOnly: false,
             ),
             // biometricOnly: true,
             // useErrorDialogs: true,
